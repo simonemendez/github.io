@@ -1,0 +1,58 @@
+
+.container {
+    display: flex;
+    margin-right:20px;
+
+    justify-content: center;   
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rgb(117, 29, 29);
+    margin-right:20px;
+    transition: background-color 0.3s, border-color 0.3s;
+
+  }
+  
+  .box1 {
+    background-color: red;
+    border: 2px solid rgb(3, 3, 3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .box2 {
+    background-color: rgb(64, 0, 255);
+    border: 2px dashed rgb(251, 255, 17);
+  }
+
+  
+  
+  .box3 {
+    background-color: rgb(0, 255, 60);
+    border: 2px solid rgb(213, 19, 132);
+/*buttons  start here */
+
+  }
+  .button {
+    background-color: #777a77; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.button4 {
+  margin-right: auto; /* Pushes the left button to the far left */
+}
+   
+.hidden {
+  visibility: hidden;
+}
+
